@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true" class="fondo">
+  <h2 class="salu2">Bienvenido Estudiante</h2>
+  <div class="titulo">Iniciar Sesion</div>
+  <div class="logo"></div>
+
+  <div class="contenedor-input verde">
+    <div>
+      <ion-icon name="person-sharp"></ion-icon>
+    </div>
+    <div style="margin-left: 10px;">
+      <ion-input [(ngModel)]="usuario" label="Ingresar Usuario" labelPlacement="floating" placeholder="Ingresar"></ion-input>
+    </div>
+  </div>
+  
+  <div class="contenedor-input azul">
+    <div>
+      <ion-icon name="lock-closed-sharp"></ion-icon>
+    </div>
+    <div style="margin-left: 10px;">
+      <ion-input [(ngModel)]="password" label="Ingresar Contraseña" type="password" labelPlacement="floating" placeholder="Ingresar"></ion-input>
+    </div>
+  </div>
+  
+  <div style="margin: 15px;">
+    <ion-button expand="block" color="light" (click)="irMenu()">Iniciar Sesión</ion-button>
+  </div>
+  
+  <!-- Restablecer Contraseña -->
+  <a (click)="mostrarMensajeExito()">Restablecer Contraseña</a>
+</ion-content>
+
+<ion-footer></ion-footer>

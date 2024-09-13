@@ -1,0 +1,155 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Fernando Marambio",
+      "correo": "fern.marambio@duocuc.cl",
+      "contrasena": "1234"
+    },
+    {
+      "id": 2,
+      "nombre": "Jiraiya Sensei",
+      "correo": "jiraiya@profeduoc.cl",
+      "contrasena": "1234"
+    },
+    {
+      "nombre": "",
+      "contrasena": "",
+      "correo": "yohoho@duocuc.cl",
+      "id": 3
+    },
+    {
+      "nombre": "",
+      "contrasena": "",
+      "correo": "sebastian@duocuc.cl",
+      "id": 4
+    },
+    {
+      "nombre": "",
+      "contrasena": "1234",
+      "correo": "patan@duocuc.cl",
+      "id": 5
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "jereklein@duocuc.cl",
+      "id": 6
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "sensei@profeduoc.cl",
+      "id": 7
+    },
+    {
+      "nombre": "",
+      "contrasena": "1234",
+      "correo": "feñiwe@duoc.cl",
+      "id": 8
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "mati@duoc.cl",
+      "id": 9
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "mati@duoc.cl",
+      "id": 10
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "pataan@duoc.cl",
+      "id": 11
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "mati",
+      "id": 12
+    }
+  ],
+  "asistencia": [
+    {
+      "id": 1,
+      "nombre": "Fernando Marambio",
+      "asistencias": []
+    },
+    {
+      "id": 2,
+      "nombre": "Cristiano Ronaldo",
+      "asistencias": []
+    }
+  ],
+  "qr": [
+    {
+      "id": 1
+    }
+  ],
+  "Profesores": [
+    {
+      "id": 1,
+      "nombre": "Fernando Marambio",
+      "correo": "fern.marambio@duocuc.cl",
+      "contrasena": "1234"
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "sensei@profe.cl",
+      "id": 2
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "profe@profe.cl",
+      "id": 3
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "mati@duoc.cl",
+      "id": 4
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "mati@duoc.cl",
+      "id": 5
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "profe@profe.cl",
+      "id": 6
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "profe",
+      "id": 7
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "sensei",
+      "id": 8
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "sensei",
+      "id": 9
+    },
+    {
+      "nombre": "",
+      "contrasena": "123",
+      "correo": "mati",
+      "id": 10
+    }
+  ]
+}

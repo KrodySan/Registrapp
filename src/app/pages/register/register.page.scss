@@ -1,0 +1,21 @@
+page-register {
+    ion-list {
+      ion-item {
+        ion-label {
+          font-weight: bold;
+        }
+  
+        ion-input {
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          margin-top: 5px;
+          padding: 8px;
+        }
+      }
+  
+      ion-button {
+        margin-top: 15px;
+      }
+    }
+  }
+  

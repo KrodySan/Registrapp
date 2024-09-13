@@ -1,0 +1,28 @@
+
+ion-content {
+  --background: url('./../../../assets/img/fondo.jpg') 0/100% 100%;
+  }
+  
+  div {
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .fondo{
+    --background: url('../../../assets/img/fondo.jpg') 0/100% 100%;
+  }
+  .color-azul::after {
+    content: "APP";
+    color: #00526b; /* Cambia el color a azul o al color que desees */
+}
+#generarQR {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px; /* Bordes redondos */
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#generarQR:hover {
+  background-color: #eee; /* Cambiar color de fondo al pasar el cursor */
+}

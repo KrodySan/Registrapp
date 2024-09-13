@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      QR Asistencia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <div *ngIf="qrData">
+      <qrcode [qrdata]="qrData" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+    </div>
+  </div>
+
+</ion-content>
+<a (click)="irVolver()">
+  <button id="generarQR">Regresar</button>

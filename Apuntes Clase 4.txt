@@ -1,0 +1,36 @@
+ionic serve
+
+
+-- Animacion
+	- import { AnimationController } from '@ionic/angular';
+          import { Component, OnInit,ElementRef,ViewChild, AfterViewInit } from '@angular/core';
+
+	- Implementar la interface AfterViewInit  (ngAfterViewInit )
+		export class SplashPage implements AfterViewInit 
+        - <div class="titulo" #claudia>
+	    Claudia Cocina
+	  </div>
+        - @ViewChild('claudia') claudia!:ElementRef
+        -   constructor(
+		    private router : Router,
+		    private aniCtrl:AnimationController
+		  ) { }
+        -  ngAfterViewInit(): void {
+    		const mi_animacion=this.aniCtrl.create()
+    		.addElement(this.claudia.nativeElement)
+    		.duration(7000)
+    		.iterations(Infinity)
+    		.keyframes([
+      			{ offset: 0, transform: 'scale(1) rotate(0)' },
+      			{ offset: 0.5, transform: 'scale(1.5) rotate(45deg)' },
+      			{ offset: 1, transform: 'scale(1) rotate(0) ' },
+    		]);
+    		mi_animacion.play();
+  		}
+
+-- Instalacion de "Angular Material"
+	
+
+
+-- Crear un Componente (objeto personalizado)
+

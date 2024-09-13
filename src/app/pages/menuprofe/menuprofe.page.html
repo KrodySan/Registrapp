@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <div class="titulo">Registr<span class="color-azul"></span></div>
+    <ion-buttons slot="end">
+      <ion-button (click)="openNotifications()">
+        <ion-icon name="notifications"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="fondo">
+  <title>Menú</title>
+  <body>
+    <div class="menu">
+      <h1>Bienvenido Docente</h1>
+      <div class="usuario" (click)="irUser()">
+        <ion-icon name="person-sharp"></ion-icon>
+      </div>
+      <div class="logout" (click)="irHome()">
+        <ion-icon name="log-out-sharp"></ion-icon>
+      </div>
+
+      <!-- Selector de Secciones -->
+      <ion-list>
+        <ion-item>
+          <ion-select aria-label="Elegir sección" placeholder="Elegir sección" [multiple]="true">
+            <ion-select-option value="ASY4131-00D">ASY4131-00D</ion-select-option>
+            <ion-select-option value="PGY4121-004D">PGY4121-004D</ion-select-option>
+            <ion-select-option value="CSY4111-004 ">CSY4111-004 </ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <img src="./../../../assets/img/QR.png" alt="QR Code" style="width: 220px; height: 220px;">
+
+
+  
+      <a (click)="irDispo()">
+        <button id="generarQR">Continuar</button>
+      </a>
+      <br>
+      <br>
+    </div>
+
+    <button id="portaldc">Portal DuocUC</button>
+  </body>
+</ion-content>
+
+<ion-footer></ion-footer>

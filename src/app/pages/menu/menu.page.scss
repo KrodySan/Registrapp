@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+}
+
+
+.menu {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.opcion {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #FFFFFF; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    border: 2px solid #000000; /* Borde negro */
+    border-radius: 10px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transiciones suaves */
+  }
+  
+  .opcion:hover {
+    background-color: #000000; /* Cambia el fondo a negro al pasar el cursor */
+    color: #FFFFFF; /* Cambia el texto a blanco al pasar el cursor */
+    border-color: #FFFFFF; /* Cambia el color del borde a blanco al pasar el cursor */
+  }
+  
+  
+
+  
+#generarQR {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px; /* Bordes redondos */
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#generarQR:hover {
+    background-color: #eee; /* Cambiar color de fondo al pasar el cursor */
+}
+
+
+.logout {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+    right: 10px; /* Ajusta la distancia desde la derecha según tus preferencias */
+    font-size: 35px;
+}
+
+.usuario {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+    left: 10px; /* Ajusta la distancia desde la derecha según tus preferencias */
+    font-size: 35px;
+}
+
+
+.titulo{
+    text-align: center;  
+    font-size: xx-large;
+    font-family: 'impact', Times, serif;
+    margin-bottom: 0px;
+    text-align: center; /* Centra el texto horizontalmente */
+    display: inline-block; /* Permite ajustar el margen izquierdo */
+    margin-left: 120px; /* Ajusta el margen izquierdo según tu preferencia */
+  }
+  
+  .color-azul::after {
+    content: "APP";
+    color: #00526b; /* Cambia el color a azul o al color que desees */
+  }
+
+  

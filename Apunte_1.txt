@@ -1,0 +1,55 @@
+- WireFrame / Mockup
+- Presentacion PPT
+	- presentar el caso
+	- oportunidades
+	- el foco del desarrollo
+	- mejoras
+	- presentacion mockup organizados
+
+- Presentacion del Proyecto (Aspecto Visual)
+-------------------------------------------------
+
+  - splash
+  - login
+  - menu
+
+- RegisterApp:
+   - profesor (web): listado de cursos
+                     generacion de QR
+                     listado de alumnos
+                     generacion de informes
+   - alumno (movil)  listado de cursos
+		     lectura codigo QR
+                     estado de asistencia 
+
+- TeLlevoApp:
+   - chofer (movil): registrar ruta
+                     administrar rutas
+		     generacion de informes
+                     estado ganancia
+   - alumno (movil): busqueda de rutas
+                     administracion de toma de rutas
+		     comentarios
+--------------------------------------------------
+UI Components
+Angular Material
+
+Bootstrap
+
+HTML
+CSS
+--------------------------------------------------
+JavaScript
+TS
+--------------------------------------------------
+
+ionic start --> creacion de un proyecto
+ionic serve --> iniciar el servidor
+npm --> gestionar los paquetes de node
+npm i --> generar el node_modules
+ionic g --> genera un nuevo elemento (paginas, servicios, componentes)
+npm i -g @angular/cli --> instalacion del cliente de angular
+ng add @angular/material --> instalar Angular Material
+
+
+	
